@@ -1,0 +1,154 @@
+body{
+	background: url();
+	background-repeat: repeat;
+	margin:0;
+	padding:0;
+	font-family: Roboto;
+	font-style: normal;
+	visibility: visible;
+}
+.wrapper {
+    display: flex;
+	flex-direction: column;
+	position:absolute;
+	top:0;
+	left:0;
+	height:100%;
+	width:100%;
+ }
+
+
+
+/* Définition du style du bandeau */
+.bandeau {
+	text-align: center;
+}
+
+
+
+/**********************************************************************/
+/* Définition du style du menu                                        */
+nav{
+	
+	text-transform: uppercase;
+
+	
+
+}
+
+nav ul {
+	list-style-type: none;
+	padding: inherit;
+	
+}
+nav ul li {
+	display: inline;
+}
+nav ul li a {
+	text-align: center;
+	margin: 10px;
+	padding: 10px;
+	
+	background-color:  #D3D3D3;
+	color: black;
+	
+	text-decoration: none;
+	
+}
+
+nav ul li a:hover{
+	background-color: #6495ED;
+	border-color: #696969 #DCDCDC #DCDCDC #696969;
+}
+	
+
+
+/**********************************************************************/
+/* Définition du style du DIV d'identifiant "pied_page" */
+footer{
+	height: 100px;
+	width:1900px;
+	background:lightblue;
+	text-align: center;
+	bottom: 0px;
+	position: fixed;
+	
+	
+}
+
+div{
+	float:middle;
+}
+nav ol {
+	list-style-type: none;
+
+}
+nav ol li {
+	display: inline;
+}
+nav ol li a {
+	text-align: center;
+	margin: 190px;
+	padding: 10px;
+	background-color:  #D3D3D3;
+	color: black;
+	
+	text-decoration: none;
+	
+}
+nav ol li a:hover{
+	background-color: #6495ED;
+	border-color: #696969 #DCDCDC #DCDCDC #696969;
+}
+
+#suivi{
+	margin-right: 520px;
+}
+
+#pages1 {
+	float: left;
+	text-align: center;
+	margin-left: 700px;
+	
+}
+#bouton{
+	text-align: center;
+}
+#barre {
+	border-bottom: solid 3px #000;
+}
+td{
+	padding:30px;
+}
+
+#mid {
+	text-align: center;
+}
+
+#cour {
+	text-align: center;
+	margin-bottom: 100px;
+}
+#enseignements{
+	text-align: center;
+	margin-bottom: 100px;
+	
+}
+#instruments{
+	text-align: center;
+	margin-bottom: 100px;
+}
+#contact {
+	text-align: center;
+	padding-left: 15%;
+	padding-right: 15%;
+	margin-bottom: 100px;
+}
+#bande{
+	height: 100px;
+	width:1900px;
+	background:lightblue;
+	text-align: center;
+	
+	
+}
